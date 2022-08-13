@@ -1,0 +1,17 @@
+.checkin_top {
+  border-bottom: 1px solid var(--borderGray);
+}
+
+.checkin_top .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkin_top .checkin_top__left p {
+  font-size: 14px;
+}
+
+.checkins_wrapper {
+  background-color: var(--bgGray);
+}

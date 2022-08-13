@@ -1,0 +1,11 @@
+.checkin_image {
+  width: 99%;
+  height: 274px;
+  margin-top: 10px;
+}
+
+.checkin_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}

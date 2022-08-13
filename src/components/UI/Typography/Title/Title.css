@@ -1,0 +1,60 @@
+.Title {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.Title.white {
+  color: #fff;
+}
+
+.Title.dark {
+  color: #000;
+}
+
+.Title.sm {
+  font-size: 0.875rem;
+}
+
+.Title.normal {
+  font-size: 1.875rem;
+}
+
+.Title.md {
+  font-size: 1.46rem;
+}
+
+.Title.lg {
+  font-size: 1.7rem;
+}
+
+@media all and (min-width: 350px) {
+  .Title.lg {
+    font-size: 1.75rem;
+  }
+}
+
+@media all and (min-width: 400px) {
+  .Title.md.isResponsive {
+    font-size: 1.5rem;
+  }
+
+  .Title.lg.isResponsive {
+    font-size: 2rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .Title.sm.isResponsive {
+    font-size: 1rem;
+  }
+
+  .Title.lg.isResponsive {
+    font-size: 2.125rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .Title.lg.isResponsive {
+    font-size: 2.5rem;
+  }
+}

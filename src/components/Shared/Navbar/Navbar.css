@@ -1,0 +1,41 @@
+.navigationWrapper {
+  border-bottom: 1px solid var(--borderGray);
+}
+
+.navigationWrapper main {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0px;
+  width: 92%;
+  margin: auto;
+  align-items: center;
+}
+
+.navigationWrapper main .nav_title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.navigationWrapper main ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.navigationWrapper main ul li {
+  font-size: 14px;
+  display: inline;
+  margin-left: 1.8rem;
+}
+
+.navigationWrapper main ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigationWrapper main ul li .avatar {
+  height: 100%;
+  width: 24px;
+}
